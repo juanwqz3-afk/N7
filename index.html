@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar Fixa -->
+    <nav class="navbar">
+        <div class="logo">Hollow Knight</div>
+        <div class="nav-links">
+            <a href="#inicio">Início</a>
+            <a href="#lore">Lore</a>
+            <a href="#cards">Info</a>
+            <a href="#faq">FAQ</a>
+        </div>
+    </nav>
+
+  
+    <section id="inicio" class="hero">
+        <div class="hero-text">
+            <span class="tag">BEM-VINDO</span>
+            <h1>Hollow Knight Lore</h1>
+            <p>Explore o reino esquecido de Hallownest, enfrente a Infecção e descubra o passado dos receptáculos.</p>
+            <button class="btn">Saiba Mais</button>
+        </div>
+        <div class="img-box">
+          
+            <p></p>
+        </div>
+    </section>
+
+   
+    <section id="lore" class="lore">
+        <h2>A Lore do Jogo</h2>
+        <p>Hallownest era um reino próspero governado pelo Rei Pálido. A ruína começou com a Infecção, uma praga espalhada pela Radiância. Para deter a praga, o Rei criou os Receptáculos feitos de Vazio.</p>
+    </section>
+
+    <section class="spotlight">
+        <div class="img-box">
+           
+            <p>Imagem da Cidade das Lágrimas</p>
+        </div>
+        <div class="spotlight-text">
+            <h2>Cidade das Lágrimas</h2>
+            <p>A capital chuvosa de Hallownest, centro cultural e político do antigo reino.</p>
+        </div>
+    </section>
+
+  
+    <section id="cards" class="cards">
+        <h2>Personagens</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>O Cavaleiro</h3>
+                <p>O protagonista silencioso e receptáculo sem mente.</p>
+            </div>
+            <div class="card">
+                <h3>Hornet</h3>
+                <p>A protetora de Hallownest e filha de Herrah.</p>
+            </div>
+            <div class="card">
+                <h3>Rei Pálido</h3>
+                <p>O monarca criador do reino e dos receptáculos.</p>
+            </div>
+            <div class="card">
+                <h3>A Radiância</h3>
+                <p>A deusa da luz de onde surgiu a Infecção.</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="carrossel">
+        <h2>Galeria</h2>
+        <div class="carrossel-box">
+            <button onclick="anterior()">❮</button>
+            <img id="slide" src="cidade.jpg" alt="Slide">
+            <button onclick="proxima()">❯</button>
+        </div>
+        <p>Slide <span id="atual">1</span> de 3</p>
+    </section>
+
+   
+    <section id="faq" class="faq">
+        <h2>Perguntas Frequentes</h2>
+        
+        <div class="faq-item">
+            <button class="faq-btn">Hornet é feita de Vazio? <span>▼</span></button>
+            <div class="faq-content">
+                <p>Não, ela é filha do Rei Pálido e Herrah, não contendo Vazio.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-btn">O que é a Infecção? <span>▼</span></button>
+            <div class="faq-content">
+                <p>Uma praga mental criada pela Radiância que enlouquece os insetos.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-btn">O que é o Vazio? <span>▼</span></button>
+            <div class="faq-content">
+                <p>Uma substância escura do Abismo usada para criar os receptáculos.</p>
+            </div>
+        </div>
+    </section>
+
+ 
+    <button id="topo-btn">▲</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
